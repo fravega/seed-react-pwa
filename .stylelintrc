@@ -1,0 +1,3 @@
+{
+  "extends": [ "stylelint-config-fravega", "stylelint-config-fravega/sass" ]
+}

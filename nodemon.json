@@ -1,0 +1,10 @@
+
+{
+  "watch": [
+    "server.js",
+    "server/*.js",
+    "routes.js",
+    "next.config.js",
+    "graphql/server.js"
+  ]
+}

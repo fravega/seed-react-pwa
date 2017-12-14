@@ -1,0 +1,35 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# npm and bower installs
+node_modules
+bower_components
+npm-debug.log
+package-lock.json
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# next
+.next
+
+# sass cache folder
+.sass-cache
+
+# flow
+flow-typed/
+
+# build and temp folders
+dist
+.tmp
+public
+static/fonts
+coverage
+.nyc_output
+src/server/views/*.generated.js

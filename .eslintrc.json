@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": [ "fravega", "fravega/es6.js", "fravega/react.js", "fravega/flow.js" ],
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "globals": {
+    "NEXUS_GRAPHQL_SERVICE": true,
+    "SEARCH_GRAPHQL_SERVICE": true,
+    "KATALOG_ROOT_CATEGORY": true
+  },
+  "rules": {
+    "no-extra-parens": [ "error", "functions" ]
+  }
+}

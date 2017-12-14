@@ -1,0 +1,96 @@
+// @flow
+import React from 'react'
+
+const Links = [
+  <link
+    href="/static/icons/apple-icon-57x57.png"
+    key="0"
+    rel="apple-touch-icon"
+    sizes="57x57"
+  />,
+  <link
+    href="/static/icons/apple-icon-60x60.png"
+    key="1"
+    rel="apple-touch-icon"
+    sizes="60x60"
+  />,
+  <link
+    href="/static/icons/apple-icon-72x72.png"
+    key="2"
+    rel="apple-touch-icon"
+    sizes="72x72"
+  />,
+  <link
+    href="/static/icons/apple-icon-76x76.png"
+    key="3"
+    rel="apple-touch-icon"
+    sizes="76x76"
+  />,
+  <link
+    href="/static/icons/apple-icon-114x114.png"
+    key="4"
+    rel="apple-touch-icon"
+    sizes="114x114"
+  />,
+  <link
+    href="/static/icons/apple-icon-120x120.png"
+    key="15"
+    rel="apple-touch-icon"
+    sizes="120x120"
+  />,
+  <link
+    href="/static/icons/apple-icon-144x144.png"
+    key="5"
+    rel="apple-touch-icon"
+    sizes="144x144"
+  />,
+  <link
+    href="/static/icons/apple-icon-152x152.png"
+    key="6"
+    rel="apple-touch-icon"
+    sizes="152x152"
+  />,
+  <link
+    href="/static/icons/apple-icon-180x180.png"
+    key="7"
+    rel="apple-touch-icon"
+    sizes="180x180"
+  />,
+  <link
+    href="/static/icons/android-icon-192x192.png"
+    key="8"
+    rel="icon"
+    sizes="192x192"
+    type="image/png"
+  />,
+  <link
+    href="/static/icons/favicon-32x32.png"
+    key="9"
+    rel="icon"
+    sizes="32x32"
+    type="image/png"
+  />,
+  <link
+    href="/static/icons/favicon-96x96.png"
+    key="10"
+    rel="icon"
+    sizes="96x96"
+    type="image/png"
+  />,
+  <link
+    href="/static/icons/favicon-16x16.png"
+    key="11"
+    rel="icon"
+    sizes="16x16"
+    type="image/png"
+  />,
+  <meta content="#ffffff" key="12" name="msapplication-TileColor" />,
+  <meta
+    content="/static/icons/ms-icon-144x144.png"
+    key="13"
+    name="msapplication-TileImage"
+  />,
+  <meta content="#ffffff" key="14" name="theme-color" />
+]
+
+export default () => Links
